@@ -10,3 +10,6 @@ body {
     height: auto;
     border-radius: 15%
 }
+.content{
+    float: left;
+}
