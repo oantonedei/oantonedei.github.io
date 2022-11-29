@@ -5,3 +5,8 @@ body {
     bottom: 0;
     position: fixed;
 }
+.img-cls{
+    width: 400px;
+    height: auto;
+    border-radius: 15%
+}
