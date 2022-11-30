@@ -1,15 +1,33 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color:aliceblue
 }
 .footer{
     bottom: 0;
+    left: 85%;
     position: fixed;
 }
 .img-cls{
-    width: 400px;
+    width: 200px;
     height: auto;
-    border-radius: 15%
+    border-radius: 40%
 }
 .content{
     float: left;
+}
+.mood-img{
+    display: inline;
+}
+.mood{
+    height: 300px;
+}
+b{
+    color: #ff0356
+}
+h2{
+    text-shadow: 4px 2px #ff0356;
+}
+h1{
+    text-shadow: 2px 4px #ff0356;
 }
