@@ -38,3 +38,6 @@ dl{
 dl > dt {
     color: #ff0356
 }
+div{
+    border-bottom: 1px solid #AABBCC;
+}
