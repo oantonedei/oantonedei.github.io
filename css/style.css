@@ -31,3 +31,10 @@ h2{
 h1{
     text-shadow: 2px 4px #ff0356;
 }
+dl{
+    font-size: .9em;
+    font-style: italic;
+}
+dl > dt {
+    color: #ff0356
+}
