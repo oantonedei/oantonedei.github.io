@@ -6,5 +6,5 @@
 2. [Lab 2 - About Me](https://github.com/oantonedei/oantonedei.github.io/blob/main/aboutme.html)
 3. [Lab 3 - Responsive Layout Using Flexbox (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/responsive-flexbox.html)
 4. [Lab 3 - Responsive Layout Using Flexbox (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/responsive-flexbox.css)
-5. [Lab 3 - Responsive Layout Using Bootstrap Grid (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/reponsive-grid.html)
-6. [Lab 3 - Responsive Layout Using Bootstrap Grid (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/reponsive-grid.css)
+5. [Lab 3 - Responsive Layout Using Bootstrap Grid (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/responsive-grid.html)
+6. [Lab 3 - Responsive Layout Using Bootstrap Grid (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/responsive-grid.css)
