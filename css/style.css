@@ -10,10 +10,15 @@ body {
     position: fixed;
 }
 
+.image {
+    text-align: center;
+}
+
 .img-cls {
-    width: 200px;
+    width: 500px;
     height: auto;
-    border-radius: 40%
+    border: 2px solid #ff0356;
+    box-shadow: 2px 2px #fff;
 }
 
 .content {
