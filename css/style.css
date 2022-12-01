@@ -1,43 +1,66 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
-    color:aliceblue
+    color: aliceblue
 }
-.footer{
+
+.footer {
     bottom: 0;
     left: 85%;
     position: fixed;
 }
-.img-cls{
+
+.img-cls {
     width: 200px;
     height: auto;
     border-radius: 40%
 }
-.content{
+
+.content {
     float: left;
+    border-bottom: 2px solid #fff;
+    width: 100%
 }
-.mood-img{
+
+.content>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content>ul>li>a:hover {
+    text-decoration: underline;
+    color: #ff0356;
+}
+
+.mood-img {
     display: inline;
 }
-.mood{
+
+.mood {
     height: 300px;
 }
-b{
+
+b {
     color: #ff0356
 }
-h2{
+
+h2 {
     text-shadow: 4px 2px #ff0356;
 }
-h1{
+
+h1 {
     text-shadow: 2px 4px #ff0356;
 }
-dl{
+
+dl {
     font-size: .9em;
     font-style: italic;
 }
-dl > dt {
+
+dl>dt {
     color: #ff0356
 }
-div{
+
+div {
     border-bottom: 1px solid #AABBCC;
 }
