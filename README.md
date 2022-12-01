@@ -1,4 +1,4 @@
-# [oantonedei.github.io](https://oantonedei.github.io)
+# View GitHub Pages @ [oantonedei.github.io](https://oantonedei.github.io)
 
 ## Assignment for Web Application Programming - CS 472
 
