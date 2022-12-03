@@ -10,3 +10,4 @@
 6. [Lab 3 - Responsive Layout Using Bootstrap Grid (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/responsive-grid.html)
 7. [Lab 3 - Responsive Layout Using Bootstrap Grid (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/responsive-grid.css)
 8. [Lab 4 - JS Intro](https://github.com/oantonedei/oantonedei.github.io/blob/main/jsintro.html)
+9. [Lab 5 - ASCIImation](https://github.com/oantonedei/oantonedei.github.io/blob/main/ascii.html)
