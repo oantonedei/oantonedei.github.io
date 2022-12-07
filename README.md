@@ -13,3 +13,7 @@
 9. [Lab 5 - ASCIImation (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/ascii.html)
 10. [Lab 5 - ASCIImation (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/ascii.css)
 11. [Lab 5 - ASCIImation (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/ascii.js)
+12. [Lab 6 - Functional Programming Mocha Chai Test](https://github.com/oantonedei/oantonedei.github.io/blob/main/mocha-chai-test.html)
+13. [Lab 6 - RegExp Login Validation (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/regex-validation.html)
+14. [Lab 6 - RegExp Login Validation (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/regex-validation.css)
+15. [Lab 6 - RegExp Login Validation (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/regex-validation.js)
