@@ -23,6 +23,16 @@
             );
           }
         };
+        document.getElementById("search").onclick = function () {
+          let url = document.getElementById("url").value;
+          let pattern = /^http:\/\/|https:\/\/[a-z]{1,}\.[a-z]{2,3}$/;
+
+          if (pattern.test(url)) {
+            location.href = url;
+          } else {
+            alert("URL is not valid");
+          }
+        };
       };
     </script>
   </head>
@@ -49,6 +59,12 @@
           continue
         </label>
         <input type="button" value="Submit" id="submit" />
+      </form>
+      <hr />
+      <form action="POST" action="#" class="form-login">
+        <label for="url">Enter URL</label>
+        <input type="text" name="url" id="url" placeholder="Enter URL" />
+        <input type="button" value="Search" id="search" />
       </form>
     </div>
   </body>

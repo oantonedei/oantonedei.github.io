@@ -52,6 +52,16 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+#search {
+    width: 10%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 span {
     margin-bottom: 20px;
     font-size: 12pt;
