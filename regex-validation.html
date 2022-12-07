@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/regex-validation.css" />
+    <title>RegExp Validation</title>
+    <script>
+      window.onload = function () {
+        document.getElementById("submit").onclick = function () {
+          let email = document.getElementById("email").value;
+          let password = document.getElementById("password").value;
+
+          //Password should contain at least 10 characters in length and contain at least one number and one uppercase and lowercase letter
+          let pattern = /^([A-Za-z\d]{9,})([A-Z]{1}|[a-z]{1}|[\d]{1})$/;
+
+          if (pattern.test(password)) {
+            alert("Login Successful");
+          } else {
+            alert(
+              "Password should be at least 10 characters in length, and contain at least one number and one uppercase and lowercase letter"
+            );
+          }
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <div class="content">
+      <form method="POST" action="#" class="form-login">
+        <label for="email">Email Address:</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+        />
+        <span>We'll never your email with anyone else</span>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+        <label class="label">
+          <input type="checkbox" name="checkbox" value="text" /> Check to
+          continue
+        </label>
+        <input type="button" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
