@@ -17,3 +17,4 @@
 13. [Lab 6 - RegExp Login Validation (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/regex-validation.html)
 14. [Lab 6 - RegExp Login Validation (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/regex-validation.css)
 15. [Lab 6 - RegExp Login Validation (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/regex-validation.js)
+16. [Lab 6 - Closure (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/closure.js)
