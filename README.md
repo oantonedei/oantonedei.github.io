@@ -19,3 +19,4 @@
 15. [Lab 6 - RegExp Login Validation (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/regex-validation.js)
 16. [Lab 7 - Closure (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/closure.js)
 17. [Lab 8 - Scope (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/scope.js)
+18. [Lab 9 - Inheritance (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/inheritance.html)
