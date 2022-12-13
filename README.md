@@ -20,3 +20,4 @@
 16. [Lab 7 - Closure (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/closure.js)
 17. [Lab 8 - Scope (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/scope.js)
 18. [Lab 9 - Inheritance (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/inheritance.html)
+19. [Lab 10 - Classes and Inheritance (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/classes.html)
