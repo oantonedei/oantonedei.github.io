@@ -21,3 +21,6 @@
 17. [Lab 8 - Scope (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/scope.js)
 18. [Lab 9 - Inheritance (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/inheritance.html)
 19. [Lab 10 - Classes and Inheritance (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/classes.html)
+20. [Lab 11 - Clear Screen Lab (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/clear-screen-lab.html)
+21. [Lab 11 - Clear Screen Lab (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/clear-screen-lab.css)
+22. [Lab 11 - Clear Screen Lab (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/clear-screen-lab.js)
