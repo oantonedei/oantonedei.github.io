@@ -24,3 +24,4 @@
 20. [Lab 11 - Clear Screen Lab (HTML)](https://github.com/oantonedei/oantonedei.github.io/blob/main/clear-screen-lab.html)
 21. [Lab 11 - Clear Screen Lab (CSS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/css/clear-screen-lab.css)
 22. [Lab 11 - Clear Screen Lab (JS)](https://github.com/oantonedei/oantonedei.github.io/blob/main/js/clear-screen-lab.js)
+23. [Lab 12 - NodeJS](https://github.com/oantonedei/oantonedei.github.io/blob/main/nodejs/)
