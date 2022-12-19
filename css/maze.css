@@ -62,7 +62,6 @@ neighboring elements.  Necessary to avoid giving ids to the boundary divs
 
 #maze div.boundary {
     position: absolute;
-
     top: 0;
     left: 0;
     height: 200px;
