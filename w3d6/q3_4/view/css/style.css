@@ -43,3 +43,29 @@ input[type="submit"] {
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.bottom {
+    text-align: center;
+}
+
+.footer {
+    bottom: 0;
+    background-color: #0d0d49;
+    color: #fff;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: rgb(182, 182, 253);
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

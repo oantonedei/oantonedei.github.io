@@ -1,11 +1,17 @@
 $(() => {
-  //   $("#boundary1")[0].mouseover(youlose);
-  document.getElementById("boundary1").onmouseover = youlose;
-
-  function youlose() {
-    let walls = $(".boundary");
-    for (let i = 0; i < walls.length; i++) {
-      walls[i].addclass = "youlose";
-    }
-  }
+  setupEventHandlers();
 });
+
+function setupEventHandlers() {
+  $("#boundary1").mouseover(youlose);
+  $(".boundary").mouseover(youlose);
+  $("#start").mouseover(start);
+}
+
+function youlose() {
+  $(".boundary").addClass("youlose");
+}
+
+function start() {
+  $(".boundary").removeClass("youlose");
+}
