@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <!-- <p>Welcome <%= name %>, you are <%= age %> years old.</p> -->
+    <% if (age > 18){ %>
+    <p>
+      Welcome <%= name %>, you are <%= age %> years old and are old enough to
+      drive in Iowa.
+    </p>
+    <%}else{ %>
+    <p>
+      Welcome <%= name %>, you are <%= age %> years old and are not old enough
+      to drive in Iowa.
+    </p>
+    <%} %>
+  </body>
+</html>

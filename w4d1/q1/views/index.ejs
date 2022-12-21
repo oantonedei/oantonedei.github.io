@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Please complete the form below to create your cookie(s):</p>
+    <form action="/addCookie" method="post">
+      <label for="key">Cookie Key:</label>
+      <input type="text" name="key" id="key" />
+      <label for="value">Cookie Value:</label>
+      <input type="text" name="value" id="value" />
+      <input type="submit" value="Add Cookie" />
+    </form>
+
+    <div class="table-container">
+      <table class="table">
+        <tr>
+          <th>S/N</th>
+          <th>Cookie Key</th>
+          <th>Cookie Value</th>
+        </tr>
+        <!-- iterate here -->
+        <% let c = 1; for (let cookey in cookies){ %>
+        <tr>
+          <td><%= c++ %></td>
+          <td><%= cookey %></td>
+          <td><%= cookies[cookey]%></td>
+        </tr>
+        <% } %>
+      </table>
+    </div>
+  </body>
+</html>
