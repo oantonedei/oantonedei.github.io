@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Product Homepage</h1>
+      </div>
+      <div class="content">
+        <% for (let p of product){ %>
+        <form action="/viewProduct" method="post">
+          <input type="hidden" name="id" value="<%= p.id %>" />
+          <h2><%= p.name %></h2>
+          <h5>$<%= p.price %></h5>
+          <input type="submit" value="View Product" />
+          <hr />
+        </form>
+        <% } %>
+      </div>
+    </div>
+    <%- include("footer") %>
+  </body>
+</html>

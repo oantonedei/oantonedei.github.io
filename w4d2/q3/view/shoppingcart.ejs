@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Your Shopping Cart</h1>
+        <button><a href="/">Product Homepage</a></button>
+      </div>
+      <div class="content">
+        <% for (let p of cart){ %>
+        <h3><%= p.name %></h3>
+        <span><%= p.description %></span>
+        <h4>$: <%= p.price %></h4>
+        <h4>Quantity Purchased: <%= p.qty %></h4>
+        <h4>Total $: <%= p.price * p.qty %></h4>
+        <hr />
+        <% } %>
+      </div>
+      <h2>
+        Total Cart Amount: $<%= cart.reduce((acc, x) => acc + (x.qty * x.price),
+        0); %>
+      </h2>
+    </div>
+    <%- include("footer") %>
+  </body>
+</html>
