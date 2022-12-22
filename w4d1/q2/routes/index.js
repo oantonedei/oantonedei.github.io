@@ -16,16 +16,17 @@ router.post("/result", (req, res) => {
   }
   if (!req.session.info) {
     req.session["info"] = { n: name, a: age };
+  } else {
+    req.session.info["n"] = name;
+    req.session.info["a"] = age;
   }
   res.redirect(`/viewresult`);
 });
 router.get("/viewresult", (req, res) => {
-  let n = req.session.info.n;
-  let a = req.session.info.a;
+  let info = req.session.info;
   res.render("result", {
     title: "View Result",
-    name: n,
-    age: a,
+    info: info,
   });
 });
 

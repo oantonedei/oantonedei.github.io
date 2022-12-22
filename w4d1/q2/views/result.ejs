@@ -6,16 +6,15 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <!-- <p>Welcome <%= name %>, you are <%= age %> years old.</p> -->
-    <% if (age > 18){ %>
+    <% if (info.a > 18){ %>
     <p>
-      Welcome <%= name %>, you are <%= age %> years old and are old enough to
-      drive in Iowa.
+      Welcome <%= info.n %>, you are <%= info.a %> years old and are old enough
+      to drive in Iowa.
     </p>
     <%}else{ %>
     <p>
-      Welcome <%= name %>, you are <%= age %> years old and are not old enough
-      to drive in Iowa.
+      Welcome <%= info.n %>, you are <%= info.a %> years old and are not old
+      enough to drive in Iowa.
     </p>
     <%} %>
   </body>
