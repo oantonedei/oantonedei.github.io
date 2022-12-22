@@ -36,13 +36,13 @@ router.get("/", (req, res) => {
   res.render("index", { product: product.slice(0, 3) });
 });
 router.post("/viewProduct", (req, res) => {
-  let id = req.body.id;
-  res.render("product", { product: product.filter((x) => x.id == id) });
+  let id = parseInt(req.body.id);
+  res.render("product", { product: product.filter((x) => x.id === id) });
 });
 router.post("/addToCart", (req, res) => {
-  let id = req.body.id;
+  let id = parseInt(req.body.id);
   let qty = req.body.qty;
-  let productDetail = product.filter((x) => x.id == id);
+  let productDetail = product.filter((x) => x.id === id);
   let item = {
     id: id,
     name: productDetail[0].name,
@@ -54,12 +54,10 @@ router.post("/addToCart", (req, res) => {
     req.session.cart = [];
     req.session.cart.push(item);
   } else {
-    let checker = req.session.cart.filter((x) => x.id == id);
-    console.log(checker);
+    let checker = req.session.cart.filter((x) => x.id === id);
     if (checker.length === 0) {
       req.session.cart.push(item);
     } else {
-      console.log(req.session.cart);
       req.session.cart.forEach((x) => {
         if (x.id == id) {
           x.qty = qty;
