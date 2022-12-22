@@ -2,16 +2,17 @@ $(() => {
   const completed = (response) => {
     let data = response.data;
     let q = Math.floor(Math.random() * data.length);
-    $("#question").val("");
-    $("#question").attr("placeholder", data[q]);
-    $("#question").focus(() => {
+    $("#question").val(data[q]);
+    $("#question").select();
+    $("#question").focus(function () {
       this.select();
     });
   };
   const foundErr = (err) => {
     console.log(err);
     $("#question").val("We enountered an error with your query...");
-    $("#question").focus(() => {
+    $("#question").select();
+    $("#question").focus(function () {
       this.select();
     });
   };
